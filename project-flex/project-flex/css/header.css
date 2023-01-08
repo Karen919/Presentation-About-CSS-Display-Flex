@@ -1,0 +1,42 @@
+.nav{
+    background-color: rgba(16, 16, 16, 0.915);
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    /* animation-name: myanimate; */
+    /* animation-duration: 4s; */
+
+    animation-fill-mode: forwards;}
+.nav ul{
+    display: block;
+}
+
+.nav_link a{
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    transition: .4s linear;
+    
+}
+.nav_link a:hover {
+    background-color: black;
+    font-size: 20px;
+    color: rgb(185, 189, 192);
+    box-shadow: -6px 1px 2px  #ffd;
+    transition: .4s linear;
+    
+}
+
+
+@keyframes myanimate{
+    100%{
+        height: 100%;
+    }
+
+}

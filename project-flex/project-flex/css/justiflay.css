@@ -1,0 +1,159 @@
+
+
+.slider {
+    background-color: rgba(255, 255, 255, 0.868);
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    margin-left: 400px;
+    margin-top: 70px;
+    border: 2px inset rgb(13, 14, 13);
+    
+ }
+ 
+
+ 
+ .navigation {
+    position: absolute;
+    
+    left: 57%;
+    transform: translateX(-50%);
+    display: flex;
+ }
+ 
+ .bar {
+    width: 30px;
+    height: 8px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #000;
+    opacity: .5;
+    border-radius: 10px;
+    transition: all 0.8s ease;
+ }
+ 
+ .bar:hover {
+    opacity: 1;
+    transform:scale(1.1);
+ }
+ 
+ input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+ }
+ 
+ .slides {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+ }
+ 
+ .slide {
+    width: 1000px;
+    transition: all 0.7s ease;
+ }
+ 
+ .color {
+    width: 1000px;
+ }
+ 
+ #r1:checked ~ .s1 {
+    margin-left: 0;
+ }
+ 
+ #r2:checked ~ .s1 {
+    margin-left: -1000px;
+ }
+ #r3:checked ~ .s1 {
+    margin-left: -2000px;
+ }
+ #r4:checked ~ .s1 {
+    margin-left: -3000px;
+ }
+ #r5:checked ~ .s1 {
+    margin-left: -4000px;
+ }
+
+ .center > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    
+  }
+
+.center {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(49, 51, 54);
+    width: 90%;
+    margin-left: 5%;    
+}
+
+.flex-start > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    
+  }
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(49, 51, 54);
+    width: 90%;
+    margin-left: 5%;    
+}
+
+.flex-end > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    
+  }
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(49, 51, 54);
+    width: 90%;
+    margin-left: 5%;    
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(49, 51, 54);
+  }
+  
+  .space-around > div {
+    background-color: rgb(223, 227, 233);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 51, 54);
+  }
+  
+  .space-between > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
