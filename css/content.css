@@ -1,0 +1,90 @@
+.space-between {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    overflow: scroll;
+    background-color: rgb(49, 51, 54);
+  }
+  
+  .space-between > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .space-around {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    overflow: scroll;  
+    background-color: rgb(49, 51, 54);
+  }
+  
+  .space-around > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+
+  .stretch-content {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    overflow: scroll;  
+    background-color: rgb(49, 51, 54);
+  }
+  
+  .stretch-content > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .center-content {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow: scroll;  
+    background-color: rgb(49, 51, 54);
+  }
+  
+  .center-content > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-start-content {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: scroll;  
+    background-color: rgb(49, 51, 54);
+  }
+  
+  .flex-start-content > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
